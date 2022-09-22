@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    user-select: none;
+}
+#logo{
+    position: absolute;
+    height: 10vw;
+    width:18vw;
+    top: -0.5vw;
+    left: 2.5vw;
+}
+
+#nvbr {
+    position: absolute;
+    height: 5vw;
+    width: 80%;
+    right: 0;
+    top: 2vw;
+}
+
+#nvbr .tg {
+    position: absolute;
+    color: rgb(128, 128, 129);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    top: 40%;
+}
+
+#nvbr #hm {
+    left: 5%;
+}
+
+#nvbr #pd {
+    left: 16%;
+}
+
+#nvbr #hr {
+    left: 36%;
+}
+
+#nvbr #ab {
+    left: 51%;
+}
+
+#nvbr #ct {
+    left: 63%;
+}
+
+#nvbr .ic {
+    position: absolute;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-position: center;
+    background-size: cover;
+    top: 40%;
+    cursor: pointer;
+}
+
+#nvbr #ins {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E");
+    right: 10%;
+}
+
+#nvbr #fcb {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M13 9h4.5l-.5 2h-4v9h-2v-9H7V9h4V7.128c0-1.783.186-2.43.534-3.082a3.635 3.635 0 0 1 1.512-1.512C13.698 2.186 14.345 2 16.128 2c.522 0 .98.05 1.372.15V4h-1.372c-1.324 0-1.727.078-2.138.298-.304.162-.53.388-.692.692-.22.411-.298.814-.298 2.138V9z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E");
+    right: 13%;
+}
+#nvbr #twt{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E");
+    right: 7%;
+}
+
+h1 {
+    position: absolute;
+    font-size: 5vw;
+    color: red;
+    font-family: Satisfy;
+    text-transform: capitalize;
+    font-weight: 200;
+    top: 18vw;
+    right: 45vw;
+}
+#main #hey{
+    color: aliceblue;
+    text-shadow: 0.2vw 0.2vw 0.5vw red;
+}
+
+#cl {
+    position: absolute;
+    height: 30vw;
+    width: 25vw;
+    object-fit: cover;
+    object-position: center;
+    left: 12vw;
+    top: 20%;
+    transition: 1s ease-in-out;
+}
+
+#cl:hover {
+    top: 15%;
+}
+
+
+
+#main #lb {
+    position: absolute;
+    height: 8vw;
+    width: 14vw;
+    object-fit: cover;
+    object-position: center;
+    bottom: 0;
+    right: 0;
+}
+
+h2 {
+    position: absolute;
+    font-size: 1.5vw;
+    color: aliceblue;
+    bottom: 4.8vw;
+    right: 3.5vw;
+    z-index: 9;
+    font-family: voyage;
+    letter-spacing: 0.2vw;
+    text-transform: capitalize;
+    transform: rotate(-9deg);
+}
+
+h3 {
+    position: absolute;
+    font-size: 1.5vw;
+    color: aliceblue;
+    bottom: 1.7vw;
+    right: 2vw;
+    z-index: 9;
+    word-spacing: 0.3vw;
+    font-family: voyage;
+    letter-spacing: 0.2vw;
+    text-transform: capitalize;
+    transform: rotate(-9deg);
+}
+h4{
+    position: absolute;
+    font-size: 1.4vw;
+    color: rgb(180, 183, 185);
+    font-family: Inconsolata;
+    top: 25.5vw;
+    right: 16vw;
+    font-weight: 100;
+    line-height: 2vw;
+    word-spacing: -0.5vw;
+    font-weight: 400;
+}
+#rm{
+    position: absolute;
+    color: red;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-family: voyage;
+    top: 32vw;
+    right: 54vw;
+    cursor: pointer;
+}
+#cp{
+    position: absolute;
+    height: 1.2vw;
+    width: 1.2vw;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 2c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 3c1.82 0 3.413.973 4.288 2.428l-1.714 1.029A3 3 0 1 0 12 15a2.998 2.998 0 0 0 2.573-1.456l1.715 1.028A4.999 4.999 0 0 1 7 12c0-2.76 2.24-5 5-5z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E");
+    background-position: center;
+    background-size: cover;
+    bottom: 2.6vw;
+    left: 3vw;
+}
+h6{
+    position: absolute;
+    font-size: 1.3vw;
+    color: aliceblue;
+    bottom: 2.5vw;
+    left: 4.5vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    position: absolute;
+    font-size: 1vw;
+    color: aliceblue;
+    bottom: 1vw;
+    left: 3vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
