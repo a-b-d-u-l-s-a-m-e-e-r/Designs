@@ -35,12 +35,15 @@ body {
 
 #nvbr .tg {
     position: absolute;
-    color: rgb(128, 128, 129);
+    color: rgb(202, 202, 203);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5vw;
     cursor: pointer;
     text-transform: uppercase;
     top: 40%;
+}
+#nvbr .tg:hover{
+    color: white;
 }
 
 #nvbr #hm {
@@ -110,7 +113,7 @@ h1 {
     object-position: center;
     left: 12vw;
     top: 20%;
-    transition: 1s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 #cl:hover {
